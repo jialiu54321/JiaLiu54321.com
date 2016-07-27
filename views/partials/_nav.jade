@@ -1,0 +1,26 @@
+// Navigation
+// Note: navbar-default and navbar-inverse are both supported with this theme.
+nav.navbar.navbar-inverse.navbar-fixed-top.navbar-expanded
+  .container
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand.page-scroll(href='#page-top')
+        img.img-responsive(src='/img/creative/logo.png', alt='')
+    // Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.hidden
+          a.page-scroll(href='#page-top')
+        li
+          a.page-scroll(href='#about') About
+        li
+          a.page-scroll(href='#developer') Development
+        li
+          a.page-scroll(href='#contact') Contact
+        // /.navbar-collapse
+        // /.container
