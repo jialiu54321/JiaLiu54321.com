@@ -59,7 +59,7 @@ app.use(function(err, req, res, next) {
 
 //setup server
 app.listen(9000, function() {
-  console.log("server runninng on 3000");
+  console.log("server runing on 9000");
 });
 
 module.exports = app;
