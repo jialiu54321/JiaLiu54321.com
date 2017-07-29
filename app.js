@@ -58,8 +58,10 @@ app.use(function(err, req, res, next) {
 });
 
 //setup server
-app.listen(9000, function() {
+app.listen(80, function() {
   console.log("server runing on 9000");
 });
 
 module.exports = app;
+
+
