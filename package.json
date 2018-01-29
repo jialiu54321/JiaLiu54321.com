@@ -1,9 +1,11 @@
 {
   "name": "JiaLiu54321",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js", 
+    "start_forever": "./start.sh", 
+    "stop_forever": "./stop.sh"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
